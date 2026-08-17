@@ -1,0 +1,11 @@
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/bin/Debug/net8.0/MeuProjeto.Shared.deps.json
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/bin/Debug/net8.0/MeuProjeto.Shared.dll
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/bin/Debug/net8.0/MeuProjeto.Shared.pdb
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.AssemblyInfoInputs.cache
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.AssemblyInfo.cs
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.csproj.CoreCompileInputs.cache
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.dll
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/refint/MeuProjeto.Shared.dll
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/MeuProjeto.Shared.pdb
+/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/Debug/net8.0/ref/MeuProjeto.Shared.dll
