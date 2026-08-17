@@ -1698,11 +1698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Api/MeuProjeto.Api.csproj",
+      "projectUniqueName": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Api/MeuProjeto.Api.csproj",
       "projectName": "MeuProjeto.Api",
-      "projectPath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Api/MeuProjeto.Api.csproj",
+      "projectPath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Api/MeuProjeto.Api.csproj",
       "packagesPath": "/Users/lucca/.nuget/packages/",
-      "outputPath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Api/obj/",
+      "outputPath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lucca/.nuget/NuGet/NuGet.Config"
@@ -1717,8 +1717,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {
-              "projectPath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj"
+            "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {
+              "projectPath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUag2SoqZKI=",
+  "dgSpecHash": "CUI2tOLtxCo=",
   "success": true,
-  "projectFilePath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
+  "projectFilePath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

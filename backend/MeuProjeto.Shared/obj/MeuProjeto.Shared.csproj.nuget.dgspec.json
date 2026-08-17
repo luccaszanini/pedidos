@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {}
+    "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {}
   },
   "projects": {
-    "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {
+    "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
+        "projectUniqueName": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
         "projectName": "MeuProjeto.Shared",
-        "projectPath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
+        "projectPath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/MeuProjeto.Shared.csproj",
         "packagesPath": "/Users/lucca/.nuget/packages/",
-        "outputPath": "/Users/lucca/Documents/Dev/Centrin/MeuProjeto.Shared/obj/",
+        "outputPath": "/Users/lucca/Documents/Dev/Centrin/proj-pedidos/backend/MeuProjeto.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lucca/.nuget/NuGet/NuGet.Config"
