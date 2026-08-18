@@ -1,0 +1,70 @@
+<main class="tester">
+    <header>
+      <h1>Testador de API — Pedidos</h1>
+      <p class="subtitle">Aponte para o backend local (ou o túnel) e teste os endpoints.</p>
+    </header>
+  
+    <section class="request-line">
+      <input
+        class="base-url"
+        type="text"
+        [(ngModel)]="baseUrl"
+        placeholder="http://localhost:5000"
+      />
+      <select [(ngModel)]="method">
+        @for (m of methods; track m) {
+          <option [value]="m">{{ m }}</option>
+        }
+      </select>
+      <input
+        class="path"
+        type="text"
+        [(ngModel)]="path"
+        placeholder="/api/pedidos"
+      />
+      <button (click)="send()" [disabled]="loading()">
+        {{ loading() ? 'Enviando…' : 'Enviar' }}
+      </button>
+    </section>
+  
+    <section class="panels">
+      <div class="panel">
+        <h2>Headers</h2>
+        @for (row of headers(); track $index) {
+          <div class="header-row">
+            <input type="text" [(ngModel)]="row.key" placeholder="Chave" />
+            <input type="text" [(ngModel)]="row.value" placeholder="Valor" />
+            <button class="icon-btn" (click)="removeHeader($index)" title="Remover">✕</button>
+          </div>
+        }
+        <button class="add-btn" (click)="addHeader()">+ Adicionar header</button>
+  
+        <h2>Body (JSON)</h2>
+        <textarea
+          [(ngModel)]="body"
+          rows="8"
+          placeholder='{"exemplo": "valor"}'
+        ></textarea>
+      </div>
+  
+      <div class="panel response-panel">
+        <h2>Resposta</h2>
+  
+        @if (status() !== null) {
+          <div class="status-line" [class.status-error]="status()! >= 400">
+            <span class="status-code">{{ status() }}</span>
+            <span class="status-text">{{ statusText() }}</span>
+            @if (elapsedMs() !== null) {
+              <span class="elapsed">{{ elapsedMs() }} ms</span>
+            }
+          </div>
+        }
+  
+        @if (errorMessage()) {
+          <p class="error-message">{{ errorMessage() }}</p>
+        }
+  
+        <pre class="response-body">{{ responseBody() || '—' }}</pre>
+      </div>
+    </section>
+  </main>
