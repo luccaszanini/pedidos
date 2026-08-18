@@ -1,0 +1,30 @@
+networks:
+  sb-emulator:
+    driver: bridge
+
+services:
+  asb-sql:
+    image: "mcr.microsoft.com/azure-sql-edge"
+    environment:
+      - "ACCEPT_EULA=Y"
+      - "MSSQL_SA_PASSWORD=Strong_Passw0rd#2025"
+    networks:
+      - sb-emulator
+
+  asb-emulator:
+    image: "mcr.microsoft.com/azure-messaging/servicebus-emulator:latest"
+    ports:
+      - "5673:5672"
+      - "5300:5300"
+    environment:
+      SQL_SERVER: asb-sql
+      MSSQL_SA_PASSWORD: "Strong_Passw0rd#2025"
+      ACCEPT_EULA: "Y"
+      EMULATOR_HTTP_PORT: 5300
+      CONFIG_FILE: /ServiceBusConfig.json
+    volumes:
+      - ./Config.json:/ServiceBusConfig.json
+    depends_on:
+      - asb-sql
+    networks:
+      - sb-emulator
